@@ -6,7 +6,7 @@ Project: Give Me A Hand
 
 ### Code Quality
 
-- [Common Coding Red Flags By Amateurs](https://www.reddit.com/r/cpp_questions/comments/11nomn3/what_are_some_signs_that_code_is_written_by_an/)
+- [What are some signs that code is written by an inexperienced developer?](https://www.reddit.com/r/cpp_questions/comments/11nomn3/what_are_some_signs_that_code_is_written_by_an/)
 
 ### Creating Documentation
 
@@ -18,3 +18,7 @@ Technology: [Doxygen](https://www.doxygen.nl/)
 
 - [C++14 standard](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4296.pdf)
 - [Arduino API Style Guide](https://docs.arduino.cc/learn/contributions/arduino-library-style-guide)
+
+### Git
+
+- [Basic git commands](https://www.atlassian.com/git/glossary)
