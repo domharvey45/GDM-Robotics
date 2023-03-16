@@ -2,6 +2,16 @@
 
 Project: Give Me A Hand
 
+## Setup
+
+To initialise the code on your local system:
+
+1. install [NodeJS LTS](https://nodejs.org/en/download/)
+2. make sure the path to your nodejs folder is aded to PATH
+3. install [Git](https://git-scm.com/downloads)
+4. run `git clone https://github.com/domharvey45/GDM-Robotics.git`
+5. run `npm install`
+
 ## Imporant Links
 
 ### Code Quality
