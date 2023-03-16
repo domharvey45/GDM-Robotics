@@ -7,10 +7,11 @@ Project: Give Me A Hand
 To initialise the code on your local system:
 
 1. install [NodeJS LTS](https://nodejs.org/en/download/)
-2. make sure the path to your nodejs folder is aded to PATH
+2. make sure the path to your nodejs folder is aded to [PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 3. install [Git](https://git-scm.com/downloads)
 4. run `git clone https://github.com/domharvey45/GDM-Robotics.git`
-5. run `npm install`
+5. run `cd GDM-Robotics`
+6. run `npm install`
 
 ## Imporant Links
 
