@@ -58,4 +58,8 @@ and therefore we could not show the error message to the user
 
 #### Enforcement
 
-This is enforced by [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) and [standard-version](https://github.com/conventional-changelog/standard-version)
+This formatting is enforced by [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) and [standard-version](https://github.com/conventional-changelog/standard-version)
+
+## Git Hooks
+
+Hook management is done with [Husky](https://github.com/typicode/husky).
