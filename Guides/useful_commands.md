@@ -4,7 +4,7 @@
 
 ### Multiline Commit Messages
 
-By typing `git commit` without the `-m` flag, your terminal will open a test editor and you can write out you multiline commit message.
+By typing `git commit` without the `-m` flag, your terminal will open a text editor and you can write out you multiline commit message.
 
 ### [git log](https://git-scm.com/docs/git-log)
 
