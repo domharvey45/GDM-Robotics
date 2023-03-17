@@ -63,3 +63,7 @@ This formatting is enforced by [@commitlint/config-conventional](https://github.
 ## Git Hooks
 
 Hook management is done with [Husky](https://github.com/typicode/husky).
+
+## CHANGELOG Generation
+
+Automated CHANGELOG generation and release versioning is done via [release-please](https://github.com/googleapis/release-please).

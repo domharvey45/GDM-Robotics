@@ -32,4 +32,7 @@ Technology: [Doxygen](https://www.doxygen.nl/)
 
 ### Git
 
-- [Basic git commands](https://www.atlassian.com/git/glossary)
+- [Basic git commands](https://git-scm.com/docs/giteveryday)
+- [Git Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+- [Git official documentation](https://git-scm.com/docs)
+- [Pro Git Textbook](https://git-scm.com/book/en/v2)
