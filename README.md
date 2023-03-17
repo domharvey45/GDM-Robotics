@@ -4,6 +4,8 @@ Project: Give Me A Hand
 
 ## Setup
 
+### Initialisation
+
 To initialise the code on your local system:
 
 1. install [NodeJS LTS](https://nodejs.org/en/download/)
@@ -12,6 +14,33 @@ To initialise the code on your local system:
 4. run `git clone https://github.com/domharvey45/GDM-Robotics.git`
 5. run `cd GDM-Robotics`
 6. run `npm install`
+
+### VSCode Plugins
+
+#### [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+This plugin attempts to override user/workspace settings with settings found in .editorconfig files. No additional or vscode-specific files are required.
+
+#### [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+#### [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+
+Changes VS Code's built-in markdown preview to match GitHub's styling.
+
+#### [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
+
+The Arduino extension makes it easy to develop, build, and deploy your Arduino sketches in Visual Studio Code, with a rich set of functionalities. These include:
+
+1. IntelliSense and syntax highlighting for Arduino sketches
+2. Verify and upload your sketches in Visual Studio Code
+3. Built-in board and library manager
+4. Built-in example list
+5. Built-in serial monitor
+6. Snippets for sketches
+7. Automatic Arduino project scaffolding
+8. Command Palette (F1) integration of frequently used commands (e.g. Verify, Upload...)
 
 ## Important Links
 
