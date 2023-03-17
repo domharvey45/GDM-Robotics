@@ -67,3 +67,7 @@ Hook management is done with [Husky](https://github.com/typicode/husky).
 ## CHANGELOG Generation
 
 Automated CHANGELOG generation and release versioning is done via [release-please](https://github.com/googleapis/release-please).
+
+## Versioning
+
+Automated versioning is done via [release-please](https://github.com/googleapis/release-please) using the [semantic versioning (semver) standard](https://semver.org/).
