@@ -63,3 +63,11 @@ git show <commit> -- <filepath>
 ```
 
 `<filepath>` being the path for the file you want to see the changes for.
+
+## Command line
+
+### Make Husky executable on Linux
+
+```bash
+chmod ug+x .husky/*
+```
