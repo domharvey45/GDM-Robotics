@@ -3,15 +3,20 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/format": "^17.4.4",
     "husky": "^8.0.3",
     "standard-version": "^9.5.0"
   },
   "scripts": {
     "release": "standard-version",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "commit"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/domharvey45/GDM-Robotics"
+  },
+  "dependencies": {
+    "@commitlint/prompt-cli": "^17.4.4"
   }
 }
