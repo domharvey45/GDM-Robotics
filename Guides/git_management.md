@@ -29,7 +29,7 @@ As established by the [Conventional Commits](https://www.conventionalcommits.org
 7. `build`: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 8. `docs`: Changes that affect any documentation e.g. markdown files.
 
-`scope` 
+`scope`
 
 The scope details the part of the code affected. Common scopes are:
 
