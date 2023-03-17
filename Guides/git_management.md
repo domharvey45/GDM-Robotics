@@ -9,7 +9,7 @@
 GitHub commit messages will take the approximate Backus–Naur form:
 
 ```txt
-<type>[optional scope]: <description>
+<type>(optional scope): <description>
 
 [optional body]
 
