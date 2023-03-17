@@ -63,6 +63,12 @@ and therefore we could not show the error message to the user
 
 This formatting is enforced by [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional) and [standard-version](https://github.com/conventional-changelog/standard-version)
 
+In order to use an interactive message creator, run:
+
+1. `git add -A` to stage all changes.
+2. `npm run commit` to run the interactive prompt.
+3. `git push` to push changes to GitHub.
+
 ## Git Hooks
 
 Hook management is done with [Husky](https://github.com/typicode/husky).
