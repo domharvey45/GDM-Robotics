@@ -27,8 +27,11 @@ As established by the [Conventional Commits](https://www.conventionalcommits.org
 5. `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 6. `test`: Adding missing tests or correcting existing tests
 7. `build`: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+8. `docs`: Changes that affect any documentation e.g. markdown files.
 
-`scope` details the part of the code affected. Common scopes are:
+`scope` 
+
+The scope details the part of the code affected. Common scopes are:
 
 1. File: enter the name of the file affected.
 2. Class: enter the name of the class affected
