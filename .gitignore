@@ -164,3 +164,6 @@ dist
 
 # package files
 package-lock.json
+
+# settings
+.vscode/*
