@@ -39,5 +39,6 @@
     "commitlint",
     "Initialisation",
     "initialise"
-  ]
+  ],
+  "editor.formatOnSave": true
 }
