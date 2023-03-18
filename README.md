@@ -70,4 +70,4 @@ Files can be formatted on-demand by right clicking in the document and selecting
 ## C++ Libraries
 
 - [Digital Signal Processing](https://github.com/vinniefalco/DSPFilters)
-- 
+- [EMG Signal Processing](https://github.com/oymotion/EMGFilters)
