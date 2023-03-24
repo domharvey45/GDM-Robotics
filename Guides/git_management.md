@@ -2,6 +2,12 @@
 
 ## Code Commits
 
+### Branches
+
+DO NOT COMMIT TO THE MAIN BRANCH
+
+Push all changes to your feature specific branch or to the `dev` branch.
+
 ### Messages
 
 #### Format
