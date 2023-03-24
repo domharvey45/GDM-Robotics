@@ -42,7 +42,7 @@ The Arduino extension makes it easy to develop, build, and deploy your Arduino s
 7. Automatic Arduino project scaffolding
 8. Command Palette (F1) integration of frequently used commands (e.g. Verify, Upload...)
 
-### [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
+#### [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
 
 This extension allows clang-format (version 3.8 or higher) to be used to format C/C++, Javascript etc. source files directly from within Visual Studio Code.
 
