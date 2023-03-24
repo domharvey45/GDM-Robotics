@@ -53,7 +53,7 @@ If the `<footer>` contains `BREAKING CHANGE` or appends a `!` after the type/sco
 As such, an example commit message would be:
 
 ```txt
-fix(ABC-123): Caught Promise exception
+fix(abc-123): caught promise exception
 
 We did not catch the promise exception thrown by the API call
 and therefore we could not show the error message to the user
