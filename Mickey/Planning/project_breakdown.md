@@ -43,3 +43,9 @@ The code for the current monitoring should export a value for the current as its
 ## HDI
 
 If we want to use a screen to interact with the user, even if it's just on the electronics pack, then [this](https://forum.arduino.cc/t/pi-pico-and-ssd1306-oled-display/929498/2) is a good way to do it using the **SSD1306**.
+
+## Servo Control
+
+It will make the most sense to use the standard arduino servo control library:
+
+<https://www.arduino.cc/reference/en/libraries/servo/>
