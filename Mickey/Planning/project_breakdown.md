@@ -8,6 +8,8 @@ Arduino is just a set of libraries that simplify some C++14 processes. This mean
 
 Since a number of C++ features compile to be more resource intensive than expected, it is advised that the code is written in C where possible.
 
+For a comparison between arduino and C/C++14, see the following forum thread: <https://arduino.stackexchange.com/questions/816/c-vs-the-arduino-language>.
+
 ## System Configuration
 
 A centralised config file or set of config files will be important to have for storing threshold limits and any important parameters.
