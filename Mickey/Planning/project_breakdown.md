@@ -22,8 +22,6 @@ While a singular config file is preferred for simplicity, it is permissable that
 
 In order to simplify parameter processing, a serialised file format such as JSON, YAML, or Header files may be used, but stay consistent.
 
----
-
 ## Kalman Filter
 
 ### Github Repositories
