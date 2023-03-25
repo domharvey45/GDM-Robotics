@@ -71,3 +71,4 @@ Files can be formatted on-demand by right clicking in the document and selecting
 
 - [Digital Signal Processing](https://github.com/vinniefalco/DSPFilters)
 - [EMG Signal Processing](https://github.com/oymotion/EMGFilters)
+- [Pico C/C++ SDK](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
