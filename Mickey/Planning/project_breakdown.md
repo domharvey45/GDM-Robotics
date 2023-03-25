@@ -2,6 +2,12 @@
 
 This is a breakdown and information hub of the project code into distinct sections based on the previously created flowcharts.
 
+## Language
+
+Arduino is just a set of libraries that simplify some C++14 processes. This means we can write C/C++ code and just `#include` the required libraries.
+
+Since a number of C++ features compile to be more resource intensive than expected, it is advised that the code is written in C where possible.
+
 ## System Configuration
 
 A centralised config file or set of config files will be important to have for storing threshold limits and any important parameters.
