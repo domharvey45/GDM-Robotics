@@ -6,7 +6,9 @@ This is a breakdown and information hub of the project code into distinct sectio
 
 Arduino is just a set of libraries that simplify some C++14 processes. This means we can write C/C++ code and just `#include` the required libraries.
 
-Since a number of C++ features compile to be more resource intensive than expected, it is advised that the code is written in C where possible.
+Since a number of C++ features compile to be more resource intensive than expected, it is advised that the code is written in C where possible. The Raspberry Pi Pico C/C++ SDK is here:
+
+<https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html>
 
 For a comparison between arduino and C/C++14, see the following forum thread:
 
