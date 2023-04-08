@@ -40,5 +40,7 @@
     "Initialisation",
     "initialise"
   ],
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "cmake.configureOnOpen": true,
+  "cmake.sourceDirectory": "${workspaceFolder}/Mickey/src"
 }
