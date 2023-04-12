@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. 
 {
 	"name": "Ubuntu",
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	// "image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -29,11 +29,11 @@
 	},
 	"containerEnv": {
 		"PICO_SDK_PATH": "/workspaces/GDM-Robotics/Mickey/build/Mickey/packages/pico-sdk"
-	}
+	},
 	// "postCreateCommand": "bash scripts/install-dev-tools.sh",
-	// "build": {
-	// 	"dockerfile": "Dockerfile"
-	// },
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
 	// "runArgs": [
 	// 	"--env-file",
 	// 	".devcontainer/devcontainer.env"
