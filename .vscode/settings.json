@@ -41,6 +41,8 @@
     "initialise"
   ],
   "editor.formatOnSave": true,
-  "cmake.configureOnOpen": true,
-  "cmake.sourceDirectory": "${workspaceFolder}/Mickey/src"
+  "cmake.sourceDirectory": "${workspaceFolder}/Mickey",
+  "cmake.buildDirectory": "${workspaceFolder}/Mickey/build",
+  "cmake.buildBeforeRun": true,
+  "cmake.cmakePath": "/bin/cmake"
 }

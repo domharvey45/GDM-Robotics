@@ -1,0 +1,41 @@
+// For format details, see https://aka.ms/devcontainer.json. 
+{
+	"name": "Ubuntu",
+	// "image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cmake-tools",
+				"donjayamanne.githistory",
+				"ms-vscode.cpptools-themes",
+				"hediet.vscode-drawio",
+				"xaver.clang-format",
+				"EditorConfig.EditorConfig",
+				"DavidAnson.vscode-markdownlint",
+				"bierner.markdown-preview-github-styles",
+				"yzane.markdown-pdf",
+				"ms-vscode.makefile-tools",
+				"ms-vscode.cpptools-extension-pack",
+				"donjayamanne.githistory",
+				"yzhang.markdown-all-in-one",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"containerEnv": {
+		"PICO_SDK_PATH": "/workspaces/GDM-Robotics/Mickey/build/Mickey/packages/pico-sdk"
+	},
+	// "postCreateCommand": "bash scripts/install-dev-tools.sh",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+	// "runArgs": [
+	// 	"--env-file",
+	// 	".devcontainer/devcontainer.env"
+	// ]
+}

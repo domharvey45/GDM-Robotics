@@ -12,7 +12,7 @@ Push all changes to your feature specific branch or to the `dev` branch.
 
 #### Format
 
-GitHub commit messages will take the approximate Backus–Naur form:
+GitHub commit messages will take the approximate form:
 
 ```txt
 <type>(optional scope): <description>

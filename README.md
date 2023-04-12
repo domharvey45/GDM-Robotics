@@ -67,8 +67,12 @@ Files can be formatted on-demand by right clicking in the document and selecting
 - [Git official documentation](https://git-scm.com/docs)
 - [Pro Git Textbook](https://git-scm.com/book/en/v2)
 
-## C++ Libraries
+### C++ Libraries
 
 - [Digital Signal Processing](https://github.com/vinniefalco/DSPFilters)
 - [EMG Signal Processing](https://github.com/oymotion/EMGFilters)
 - [Pico C/C++ SDK](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
+
+### Pico Programming
+
+- [Program the Pico from VS Code](https://www.okdo.com/getting-started/get-started-with-raspberry-pi-pico-visual-studio-code/)
