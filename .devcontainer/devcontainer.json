@@ -7,7 +7,6 @@
 			"extensions": [
 				"ms-vscode.cmake-tools",
 				"donjayamanne.githistory",
-				"twxs.cmake",
 				"ms-vscode.cpptools-themes",
 				"hediet.vscode-drawio",
 				"xaver.clang-format",
@@ -24,10 +23,12 @@
 		}
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"containerEnv": {
-		"PICO_SDK_PATH": "Mickey/packages/pico-sdk"
+		"PICO_SDK_PATH": "/workspaces/GDM-Robotics/Mickey/build/Mickey/packages/pico-sdk"
 	}
 	// "postCreateCommand": "bash scripts/install-dev-tools.sh",
 	// "build": {
