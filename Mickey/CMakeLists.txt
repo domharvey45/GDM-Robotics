@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.26)
 
 # initialize the SDK based on PICO_SDK_PATH
 # note: this must happen before project()
@@ -11,8 +11,8 @@ pico_sdk_init()
 
 add_executable(mickey ${CURRENT_SOURCE_DIR}/src/c_toolchain_test.c)
 
-# target_include_directories(mickey
-#  PRIVATE
-#   include/
-#   # second_dir/
-#   )
+target_include_directories(mickey
+ PRIVATE
+  include/
+  # second_dir/
+  )
