@@ -26,9 +26,6 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
-	"containerEnv": {
-		"PICO_SDK_PATH": "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk"
-	},
 	"build": {
 		"dockerfile": "../Dockerfile"
 	}
