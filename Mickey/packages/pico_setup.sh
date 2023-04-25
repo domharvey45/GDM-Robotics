@@ -32,8 +32,8 @@ else
 fi
 
 echo "Installing Dependencies"
-sudo apt update
-sudo apt install -y $DEPS
+apt update
+apt install -y $DEPS
 
 echo "Creating $OUTDIR"
 # Create pico directory to put everything in
@@ -107,7 +107,7 @@ do
 
     if [[ "$REPO" == "picotool" ]]; then
         echo "Installing picotool to /usr/local/bin/picotool"
-        sudo cp picotool /usr/local/bin/
+        cp picotool /usr/local/bin/
     fi
 
     cd $OUTDIR
@@ -137,7 +137,7 @@ else
     ./bootstrap
     ./configure $OPENOCD_CONFIGURE_ARGS
     make -j$JNUM
-    sudo make install
+    make install
 fi
 
 cd $OUTDIR
@@ -146,7 +146,7 @@ cd $OUTDIR
 #     echo "Skipping VSCODE"
 # else
 #     echo "Installing VSCODE"
-#     sudo apt install -y $VSCODE_DEPS
+#     apt install -y $VSCODE_DEPS
 
 #     # Get extensions
 #     code --install-extension marus25.cortex-debug
@@ -158,8 +158,8 @@ cd $OUTDIR
 if [[ "$SKIP_UART" == 1 ]]; then
     echo "Skipping uart configuration"
 else
-    sudo apt install -y $UART_DEPS
+    apt install -y $UART_DEPS
     echo "Disabling Linux serial console (UART) so we can use it for pico"
-    sudo raspi-config nonint do_serial 2
-    echo "You must run sudo reboot to finish UART setup"
+    raspi-config nonint do_serial 2
+    echo "You must run reboot to finish UART setup"
 fi

@@ -46,17 +46,4 @@ RUN apt-get install -y nodejs
 # Install Node packages
 RUN npm install
 
-# Update Pico libraries
-RUN cd /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk && \
-  git pull && \
-  git submodule update
-
-RUN cd /workspaces/GDM-Robotics/Mickey/packages/pico/pico-examples && \
-  git pull && \
-  mkdir -p ./build
-
-
-# Set pico_sdk_path
-RUN cd /workspaces/GDM-Robotics/Mickey/build && export PICO_SDK_PATH=../packages/pico/pico-sdk
-
 CMD ["bash"]
