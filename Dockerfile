@@ -46,4 +46,6 @@ RUN apt-get install -y nodejs
 # Install Node packages
 RUN npm install
 
+RUN cp /workspaces/GDM-Robotics/config/.bashrc -t ~
+
 CMD ["bash"]
