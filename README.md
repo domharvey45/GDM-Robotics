@@ -4,6 +4,8 @@ Project: Give Me A Hand
 
 ## Setup
 
+Note: apart from the initialisation, you can use all or nothing from this document
+
 ### Initialisation
 
 How to set up the project:

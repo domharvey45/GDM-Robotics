@@ -41,4 +41,3 @@ A number of github repositories currently exist to add kalman filter implementat
 The current monitoring chip from the motor will supply a voltage to the ADC. PWM should be stopped when this voltage reaches the set threshold current set in the config file. Since the motor stalls at 2 Amps, the threshold should be set at, or just below this value.
 
 The code for the current monitoring should export a value for the current as its standard output. This will all implementations of the function to simply access the current without concern about processing.
-
