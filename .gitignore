@@ -165,10 +165,4 @@ dist
 # package files
 package-lock.json
 
-#settings
-.vscode/
-c_cpp_properties.json
-settings.json
-package-lock.json
-.vscode/c_cpp_properties.json
-.vscode/settings.json
+
