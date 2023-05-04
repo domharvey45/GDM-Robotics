@@ -44,5 +44,6 @@
   "cmake.sourceDirectory": "${workspaceFolder}/Mickey",
   "cmake.buildDirectory": "${workspaceFolder}/Mickey/build",
   "cmake.buildBeforeRun": true,
-  "cmake.cmakePath": "usr/local/bin/cmake"
+  // "cmake.cmakePath": "/usr/local/bin/cmake"
+  "cmake.cmakePath": "/opt/cmake-3.26.3/bin/cmake"
 }
