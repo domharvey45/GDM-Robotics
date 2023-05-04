@@ -8,7 +8,7 @@ COPY . .
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 
 # Unminimize Ubuntu OS image to access full functions
-RUN yes | unminimize
+# RUN yes | unminimize
 
 # Refresh and update system
 RUN apt-get update && \
@@ -21,9 +21,15 @@ RUN apt-get -y install \
   make \
   curl \
   man \
-  locate \
   gcc-arm-none-eabi \
-  libnewlib-arm-none-eabi
+  libnewlib-arm-none-eabi \
+  openocd \
+  automake \
+  autoconf \
+  texinfo \
+  libtool \
+  libftdi-dev \
+  libusb-1.0-0-dev
 
 # Force cache refresh
 ARG CACHEBUST=1
@@ -46,10 +52,10 @@ RUN apt-get install -y nodejs
 # Install Node packages
 RUN npm install
 
-RUN export PICO_SDK_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk
-RUN export PICO_EXAMPLES_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-examples
-RUN export PACKAGES_PATH=/workspaces/GDM-Robotics/Mickey/packages/
-RUN export LIBUSB_INCLUDE_DIR="/usr/include/libusb-1.0"
+ENV PICO_SDK_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk
+ENV PICO_EXAMPLES_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-examples
+ENV PACKAGES_PATH=/workspaces/GDM-Robotics/Mickey/packages/
+ENV LIBUSB_INCLUDE_DIR=/usr/include/libusb-1.0
 
 RUN cp /workspaces/GDM-Robotics/config/.bashrc -t ~
 

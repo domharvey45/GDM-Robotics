@@ -1,18 +1,16 @@
 cmake_minimum_required(VERSION 3.26)
 
-# initialize the SDK based on PICO_SDK_PATH
-# note: this must happen before project()
-include(/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/external/pico_sdk_import.cmake)
+include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
+pico_sdk_init()
 
 project(mickey)
 
-# initialize the Raspberry Pi Pico SDK
-pico_sdk_init()
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(mickey ${CURRENT_SOURCE_DIR}/src/c_toolchain_test.c)
+add_executable(mickey ${CMAKE_CURRENT_SOURCE_DIR}/src/c_toolchain_test.c)
 
 target_include_directories(mickey
- PRIVATE
+ PUBLIC
   include/
   # second_dir/
   )
