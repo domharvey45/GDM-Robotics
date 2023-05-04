@@ -46,6 +46,11 @@ RUN apt-get install -y nodejs
 # Install Node packages
 RUN npm install
 
+RUN export PICO_SDK_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk
+RUN export PICO_EXAMPLES_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-examples
+RUN export PACKAGES_PATH=/workspaces/GDM-Robotics/Mickey/packages/
+RUN export LIBUSB_INCLUDE_DIR="/usr/include/libusb-1.0"
+
 RUN cp /workspaces/GDM-Robotics/config/.bashrc -t ~
 
 CMD ["bash"]

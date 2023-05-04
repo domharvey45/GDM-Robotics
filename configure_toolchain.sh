@@ -1,10 +1,6 @@
 #!/bin/bash
 
-export PICO_SDK_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk && \
- echo "Environment variable set: ${PICO_SDK_PATH}"
-export PICO_EXAMPLES_PATH=/workspaces/GDM-Robotics/Mickey/packages/pico/pico-examples
-export PACKAGES_PATH=/workspaces/GDM-Robotics/Mickey/packages/
-export LIBUSB_INCLUDE_DIR="/usr/include/libusb-1.0"
+
 
 # if [ `find -- "$PICO_SDK_PATH" -prune -type d -empty` == true ]; then
 if [ `find "$PICO_SDK_PATH" -prune -type d -empty` == `true`]; then
