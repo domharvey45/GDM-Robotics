@@ -19,5 +19,6 @@
   "dependencies": {
     "@commitlint/prompt-cli": "^17.4.4",
     "clang-format": "^1.8.0"
-  }
+  },
+  "version": "1.0.0"
 }
