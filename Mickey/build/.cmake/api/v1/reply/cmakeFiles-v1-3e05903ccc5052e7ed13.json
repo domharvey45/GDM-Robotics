@@ -131,6 +131,33 @@
 			"path" : "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"path" : "packages/pico/pico-sdk/tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.26.3/share/cmake-3.26/Modules/ExternalProject.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.26.3/share/cmake-3.26/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.26.3/share/cmake-3.26/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.26.3/share/cmake-3.26/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
 			"path" : "packages/pico/pico-sdk/CMakeLists.txt"
 		},
 		{

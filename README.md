@@ -12,7 +12,9 @@ How to set up the project:
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. Install the recommended plugins
-3. Select 'Reopen in Dev Container' when opening this workspace.
+3. Run Docker Desktop
+4. Open VS Code
+5. Select 'Reopen in Dev Container' when opening this workspace.
 
 ### VSCode Plugins
 

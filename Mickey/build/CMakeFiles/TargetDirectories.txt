@@ -1,4 +1,5 @@
 /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/mickey.dir
+/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/ELF2UF2Build.dir
 /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/edit_cache.dir
 /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/rebuild_cache.dir
 /workspaces/GDM-Robotics/Mickey/build/pico-sdk/CMakeFiles/edit_cache.dir

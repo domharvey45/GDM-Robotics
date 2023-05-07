@@ -16,8 +16,19 @@
 				"id" : "GNU",
 				"implicit" : 
 				{
-					"includeDirectories" : [],
-					"linkDirectories" : [],
+					"includeDirectories" : 
+					[
+						"/usr/lib/gcc/arm-none-eabi/10.3.1/include",
+						"/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed",
+						"/usr/lib/arm-none-eabi/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp",
+						"/usr/lib/arm-none-eabi/lib/thumb/v6-m/nofp",
+						"/usr/lib/gcc/arm-none-eabi/10.3.1",
+						"/usr/lib/arm-none-eabi/lib"
+					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},

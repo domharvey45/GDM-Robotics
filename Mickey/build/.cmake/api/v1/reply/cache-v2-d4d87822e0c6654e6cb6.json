@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/addr2line"
+			"value" : "/usr/bin/arm-none-eabi-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/usr/bin/arm-none-eabi-ar"
 		},
 		{
 			"name" : "CMAKE_ASM_COMPILER",
@@ -180,10 +180,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
-				},
-				{
-					"name" : "STRINGS",
-					"value" : "Debug;Release;MinSizeRel;RelWithDebInfo"
 				}
 			],
 			"type" : "STRING",
@@ -319,7 +315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -335,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -418,18 +414,6 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
-			"name" : "CMAKE_C_ABI_COMPILED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "FALSE"
-		},
-		{
 			"name" : "CMAKE_C_COMPILER",
 			"properties" : 
 			[
@@ -459,7 +443,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/arm-none-eabi-gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -475,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/arm-none-eabi-gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -682,10 +666,6 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -803,7 +783,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/usr/bin/arm-none-eabi-ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -915,7 +895,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/usr/bin/arm-none-eabi-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1023,7 +1003,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/usr/bin/arm-none-eabi-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1039,7 +1019,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/readelf"
+			"value" : "/usr/bin/arm-none-eabi-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1259,7 +1239,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/usr/bin/arm-none-eabi-strip"
 		},
 		{
 			"name" : "CMAKE_TOOLCHAIN_FILE",
@@ -1511,7 +1491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/cmsis /workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

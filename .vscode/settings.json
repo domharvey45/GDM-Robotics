@@ -48,5 +48,6 @@
   "cmake.cmakePath": "/opt/cmake-3.26.3/bin/cmake",
   "files.associations": {
     "stdlib.h": "c"
-  }
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

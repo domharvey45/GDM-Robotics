@@ -19,7 +19,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						5
+						0,
+						6
 					]
 				},
 				{
@@ -582,9 +583,9 @@
 					"source" : "packages/pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						1,
 						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -834,8 +835,8 @@
 					"source" : "packages/pico/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						0,
-						4
+						1,
+						5
 					]
 				},
 				{
@@ -1017,7 +1018,8 @@
 					"name" : "mickey",
 					"targetIndexes" : 
 					[
-						5
+						0,
+						6
 					]
 				},
 				{
@@ -1107,16 +1109,23 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0,
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ELF2UF2Build-Debug-dbe9907bc2b827ac061a.json",
+					"name" : "ELF2UF2Build",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 65,
 					"id" : "PioasmBuild::@c2fb4f534018e64680d5",
@@ -1155,7 +1164,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mickey::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mickey-Debug-3c1c2e21e746a21354ae.json",
+					"jsonFile" : "target-mickey-Debug-02a7ef85dd94a6d45316.json",
 					"name" : "mickey",
 					"projectIndex" : 0
 				}

@@ -18,1476 +18,8 @@ events:
       - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -Aa 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -D__CLASSIC_C__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdC/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --c++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--c++'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --ec++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-      
-      The CXX compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
-      Copyright (C) 2020 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-nyxjSo"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-nyxjSo"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-nyxjSo
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bc37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8bc37.dir/build.make CMakeFiles/cmTC_8bc37.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-nyxjSo'
-        Building C object CMakeFiles/cmTC_8bc37.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_8bc37.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        gcc: error: unrecognized command-line option '-mthumb'
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        gmake[1]: *** [CMakeFiles/cmTC_8bc37.dir/build.make:78: CMakeFiles/cmTC_8bc37.dir/CMakeCCompilerABI.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-nyxjSo'
-        gmake: *** [Makefile:127: cmTC_8bc37/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Check for working C compiler: /usr/bin/gcc"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_afad6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afad6.dir/build.make CMakeFiles/cmTC_afad6.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX'
-        Building C object CMakeFiles/cmTC_afad6.dir/testCCompiler.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_afad6.dir/testCCompiler.c.obj -c /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX/testCCompiler.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        gcc: error: unrecognized command-line option '-mthumb'
-        gmake[1]: *** [CMakeFiles/cmTC_afad6.dir/build.make:78: CMakeFiles/cmTC_afad6.dir/testCCompiler.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-ixzAWX'
-        gmake: *** [Makefile:127: cmTC_afad6/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -Aa 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -D__CLASSIC_C__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdC/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --c++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--c++'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --ec++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-      
-      The CXX compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
-      Copyright (C) 2020 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Ib7Xc2"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Ib7Xc2"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Ib7Xc2
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bda70/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bda70.dir/build.make CMakeFiles/cmTC_bda70.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Ib7Xc2'
-        Building C object CMakeFiles/cmTC_bda70.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_bda70.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        gcc: error: unrecognized command-line option '-mthumb'
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        gmake[1]: *** [CMakeFiles/cmTC_bda70.dir/build.make:78: CMakeFiles/cmTC_bda70.dir/CMakeCCompilerABI.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Ib7Xc2'
-        gmake: *** [Makefile:127: cmTC_bda70/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Check for working C compiler: /usr/bin/gcc"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d729c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d729c.dir/build.make CMakeFiles/cmTC_d729c.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5'
-        Building C object CMakeFiles/cmTC_d729c.dir/testCCompiler.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_d729c.dir/testCCompiler.c.obj -c /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5/testCCompiler.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        gcc: error: unrecognized command-line option '-mthumb'
-        gmake[1]: *** [CMakeFiles/cmTC_d729c.dir/build.make:78: CMakeFiles/cmTC_d729c.dir/testCCompiler.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-zNwbG5'
-        gmake: *** [Makefile:127: cmTC_d729c/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -Aa 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -D__CLASSIC_C__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdC/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --c++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--c++'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --ec++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-      
-      The CXX compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
-      Copyright (C) 2020 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-CJx5w5"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-CJx5w5"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-CJx5w5
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_365bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_365bf.dir/build.make CMakeFiles/cmTC_365bf.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-CJx5w5'
-        Building C object CMakeFiles/cmTC_365bf.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_365bf.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        gcc: error: unrecognized command-line option '-mthumb'
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        gmake[1]: *** [CMakeFiles/cmTC_365bf.dir/build.make:78: CMakeFiles/cmTC_365bf.dir/CMakeCCompilerABI.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-CJx5w5'
-        gmake: *** [Makefile:127: cmTC_365bf/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Check for working C compiler: /usr/bin/gcc"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a28cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a28cf.dir/build.make CMakeFiles/cmTC_a28cf.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO'
-        Building C object CMakeFiles/cmTC_a28cf.dir/testCCompiler.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_a28cf.dir/testCCompiler.c.obj -c /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO/testCCompiler.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        gcc: error: unrecognized command-line option '-mthumb'
-        gmake[1]: *** [CMakeFiles/cmTC_a28cf.dir/build.make:78: CMakeFiles/cmTC_a28cf.dir/testCCompiler.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-j1SUWO'
-        gmake: *** [Makefile:127: cmTC_a28cf/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -Aa 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -D__CLASSIC_C__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      gcc: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      gcc: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/gcc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdC/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --c++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--c++'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --ec++ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c;-I__does_not_exist__ 
-      
-      The output was:
-      1
-      g++: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-      g++: error: unrecognized command-line option '-mthumb'
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/g++ 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-      
-      The CXX compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
-      Copyright (C) 2020 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-r2eBZb"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-r2eBZb"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-r2eBZb
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75ef3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75ef3.dir/build.make CMakeFiles/cmTC_75ef3.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-r2eBZb'
-        Building C object CMakeFiles/cmTC_75ef3.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_75ef3.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        gcc: error: unrecognized command-line option '-mthumb'
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        gmake[1]: *** [CMakeFiles/cmTC_75ef3.dir/build.make:78: CMakeFiles/cmTC_75ef3.dir/CMakeCCompilerABI.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-r2eBZb'
-        gmake: *** [Makefile:127: cmTC_75ef3/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Check for working C compiler: /usr/bin/gcc"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw
-        
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cce24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cce24.dir/build.make CMakeFiles/cmTC_cce24.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw'
-        Building C object CMakeFiles/cmTC_cce24.dir/testCCompiler.c.obj
-        /usr/bin/gcc   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_cce24.dir/testCCompiler.c.obj -c /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw/testCCompiler.c
-        gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
-        gcc: error: unrecognized command-line option '-mthumb'
-        gmake[1]: *** [CMakeFiles/cmTC_cce24.dir/build.make:78: CMakeFiles/cmTC_cce24.dir/testCCompiler.c.obj] Error 1
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-xCiPvw'
-        gmake: *** [Makefile:127: cmTC_cce24/fast] Error 2
-        
-      exitCode: 2
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /usr/bin/arm-none-eabi-gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Build flags: ;-mcpu=cortex-m0plus;-mthumb
       Id flags:  
       
       The output was:
@@ -1507,7 +39,7 @@ events:
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /usr/bin/arm-none-eabi-gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Build flags: ;-mcpu=cortex-m0plus;-mthumb
       Id flags: -c 
       
       The output was:
@@ -1583,8 +115,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-RkMMR4"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-RkMMR4"
+      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx"
+      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
@@ -1594,140 +126,168 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-      exitCode: 1
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /usr/bin/arm-none-eabi-gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-exit.o): in function `exit':
-      /build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v6-m/nofp/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
-      collect2: error: ld returned 1 exit status
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/arm-none-eabi-gcc 
-      Build flags: -mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
-      
-      The C compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.o
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/arm-none-eabi-g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags:  
-      
-      The output was:
-      1
-      /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-exit.o): in function `exit':
-      /build/newlib-pB30de/newlib-3.3.0/build/arm-none-eabi/thumb/v6-m/nofp/newlib/libc/stdlib/../../../../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
-      collect2: error: ld returned 1 exit status
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/arm-none-eabi-g++ 
-      Build flags: ;-mcpu=cortex-m0plus;-mthumb
-      Id flags: -c 
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
-      
-      The CXX compiler identification is GNU, found in:
-        /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.o
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    message: |
-      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-      arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
-      Copyright (C) 2020 Free Software Foundation, Inc.
-      This is free software; see the source for copying conditions.  There is NO
-      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
-      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
-    checks:
-      - "Check for working C compiler: /usr/bin/arm-none-eabi-gcc"
-    directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
-      CMAKE_C_FLAGS_DEBUG: "-Og -g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake"
-    buildResult:
-      variable: "CMAKE_C_COMPILER_WORKS"
-      cached: true
-      stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI
+        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx
         
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3069/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3069.dir/build.make CMakeFiles/cmTC_a3069.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI'
-        Building C object CMakeFiles/cmTC_a3069.dir/testCCompiler.c.obj
-        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb  -o CMakeFiles/cmTC_a3069.dir/testCCompiler.c.obj -c /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI/testCCompiler.c
-        Linking C executable cmTC_a3069.elf
-        /opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3069.dir/link.txt --verbose=1
-        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib CMakeFiles/cmTC_a3069.dir/testCCompiler.c.obj -o cmTC_a3069.elf 
+        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_437dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_437dc.dir/build.make CMakeFiles/cmTC_437dc.dir/build
+        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx'
+        Building C object CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccSiB9tP.s
+        GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/arm-none-eabi/10.3.1/include
+         /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
+        	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj /tmp/ccSiB9tP.s
+        GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking C executable cmTC_437dc.elf
+        /opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_437dc.dir/link.txt --verbose=1
+        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -o cmTC_437dc.elf 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_437dc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnpR92J.res -X -o cmTC_437dc.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj
         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-Nk9eVI'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_437dc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx'
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
+        implicit include dirs: [/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/lib/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_437dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_437dc.dir/build.make CMakeFiles/cmTC_437dc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4LYMCx']
+        ignore line: [Building C object CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccSiB9tP.s]
+        ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj /tmp/ccSiB9tP.s]
+        ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking C executable cmTC_437dc.elf]
+        ignore line: [/opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_437dc.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj -o cmTC_437dc.elf ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_437dc.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnpR92J.res -X -o cmTC_437dc.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj]
+          arg [/usr/lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccnpR92J.res] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_437dc.elf] ==> ignore
+          arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+          arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1]
+          arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_437dc.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+        collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/usr/lib/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1]
+        collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib] ==> [/usr/lib/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;/usr/lib/arm-none-eabi/lib/thumb/v6-m/nofp;/usr/lib/gcc/arm-none-eabi/10.3.1;/usr/lib/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1737,8 +297,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g"
-      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g"
+      source: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV"
+      binary: "/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -1748,12 +308,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g
+        Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV
         
-        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7951/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7951.dir/build.make CMakeFiles/cmTC_c7951.dir/build
-        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g'
-        Building CXX object CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj
-        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84a02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84a02.dir/build.make CMakeFiles/cmTC_84a02.dir/build
+        gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV'
+        Building CXX object CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -1761,8 +321,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccEyenzH.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cck14n6C.s
         GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
         	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -1782,15 +342,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccEyenzH.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cck14n6C.s
         GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        Linking CXX executable cmTC_c7951.elf
-        /opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7951.dir/link.txt --verbose=1
-        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c7951.elf 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking CXX executable cmTC_84a02.elf
+        /opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a02.dir/link.txt --verbose=1
+        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_84a02.elf 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
@@ -1801,11 +361,11 @@ events:
         gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c7951.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA1sp40.res -X -o cmTC_c7951.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_84a02.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYNFTtW.res -X -o cmTC_84a02.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj
         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c7951.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_84a02.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        gmake[1]: Leaving directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV'
         
       exitCode: 0
   -
@@ -1842,13 +402,13 @@ events:
       - "packages/pico/pico-sdk/CMakeLists.txt:10 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g]
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV]
         ignore line: []
-        ignore line: [Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7951/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7951.dir/build.make CMakeFiles/cmTC_c7951.dir/build]
-        ignore line: [gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-cv940g']
-        ignore line: [Building CXX object CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/opt/cmake-3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84a02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84a02.dir/build.make CMakeFiles/cmTC_84a02.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspaces/GDM-Robotics/Mickey/build/CMakeFiles/CMakeScratch/TryCompile-4ybOWV']
+        ignore line: [Building CXX object CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -1856,8 +416,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccEyenzH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -D__USES_INITFINI__ /opt/cmake-3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cck14n6C.s]
         ignore line: [GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1877,15 +437,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccEyenzH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cck14n6C.s]
         ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [Linking CXX executable cmTC_c7951.elf]
-        ignore line: [/opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7951.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c7951.elf ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking CXX executable cmTC_84a02.elf]
+        ignore line: [/opt/cmake-3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a02.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_84a02.elf ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper]
@@ -1896,22 +456,22 @@ events:
         ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c7951.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA1sp40.res -X -o cmTC_c7951.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_84a02.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYNFTtW.res -X -o cmTC_84a02.elf -L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/usr/lib/gcc/arm-none-eabi/10.3.1 -L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj]
           arg [/usr/lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccA1sp40.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYNFTtW.res] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c7951.elf] ==> ignore
+          arg [cmTC_84a02.elf] ==> ignore
           arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1]
           arg [-L/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_c7951.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_84a02.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
         collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
         collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/usr/lib/arm-none-eabi/lib/thumb/v6-m/nofp]
         collapse library dir [/usr/lib/gcc/arm-none-eabi/10.3.1] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1]

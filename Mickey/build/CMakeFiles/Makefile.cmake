@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
+  "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/CMakeLists.txt"
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/cmake/Platform/PICO.cmake"
@@ -136,6 +137,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/pico_unique_id/CMakeLists.txt"
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/tools/CMakeLists.txt"
+  "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/tools/FindELF2UF2.cmake"
   "/workspaces/GDM-Robotics/Mickey/packages/pico/pico-sdk/tools/FindPioasm.cmake"
   )
 
@@ -147,6 +149,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+  "elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt"
+  "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
@@ -238,6 +243,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mickey.dir/DependInfo.cmake"
+  "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
