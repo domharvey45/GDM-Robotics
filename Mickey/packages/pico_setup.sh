@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Exit on error
+# Exit on err/r
 set -e
 
 if grep -q Raspberry /proc/cpuinfo; then

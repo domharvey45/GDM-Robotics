@@ -1,0 +1,1 @@
+/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none CMakeFiles/mickey.dir/src/c_toolchain_test.c.obj -o mickey.elf 
