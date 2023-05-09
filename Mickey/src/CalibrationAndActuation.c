@@ -6,85 +6,92 @@
 #include "hardware/pwm.h"
 
 
-#define max_ADC_value 65535
-#define min_servo_angle_degrees 0
-#define max_servo_angle_degrees 130 // Pulley must rotate 123.7589 degrees to pick up pen so max value is slightly more
-#define number_samples 100
-#define myoelectric_sensor_ADC_GPIO_pin 26 // temp value
-#define LED_gpio_pin 10 // temp value
-#define motor_gpio_pin 20 // temp value
-#define calibrateFlag 1 // temp replacement of button input
-#define zero_millis 400 // MAYBE temp value
-#define one_degree_millis 11 // MAYBE temp value
+#define MAXIMUM_ADC_VALUE 65535
+#define MIN_SERVO_ANGLE_DEGREES 0
+#define MAX_SERVO_ANGLE_DEGREES 130 // Pulley must rotate 123.7589 degrees to pick up pen so max value is slightly more
+#define EMG_SAMPLE_NUMBER 100
+#define ADC_PIN_FOR_EMG 26 // temp value
+#define LED_GPIO_PIN 10 // temp value
+#define MOTOR_GPIO_PIN 20 // temp value
+#define INITIATE_CALIBRATION 1 // temp replacement of button input
+#define INITIAL_MILLIS 400 // MAYBE temp value
+#define MILLIS_PER_DEGREE 11 // MAYBE temp value
 
 // FUNCTION PROTOTYPES//
-int CalibrateUserValues(float *min_user_signal_value, float *max_user_signal_value);
-float ADCtoAngle(float max_user_signal_value, float min_user_signal_value);
+int CalibrateUserValues(
+  float *min_emg_sensor_value, 
+  float *max_emg_sensor_value
+  );
+
+float ADCtoAngle(
+  float max_emg_sensor_value, 
+  float min_emg_sensor_value
+  );
 
 // MAIN //
 int main()
 {
     // Initialise and declare variables, and set motor to open (0 degrees)
     float angle = 0;
-    float old_angle = 0;
-    float d_angle;
-    float max_user_signal_value;
-    float min_user_signal_value;
-    float current_millis = zero_millis;
+    float previous_angle = 0;
+    float angle_delta;
+    float max_emg_sensor_value;
+    float min_emg_sensor_value;
+    float current_millis = INITIAL_MILLIS;
     int direction = 1;
-    setMotor(motor_gpio_pin, current_millis);
+    setMotor(MOTOR_GPIO_PIN, current_millis);
 
     // Calibrate if button is pressed - CHANGE IF STATEMENT PARAMETER FROM PREPROCESSOR DEFINE TO HIGH ON CALIBRATE BUTTON PIN VALUE AND MOVE TO WHILE LOOP
-    if (calibrateFlag == 1)
+    if (INITIATE_CALIBRATION == 1)
     {
-      CalibrateUserValues(&min_user_signal_value, &max_user_signal_value);
+      CalibrateUserValues(&min_emg_sensor_value, &max_emg_sensor_value);
     }
 
     // Calculate Angle and direction
-    angle = ADCtoAngle(max_user_signal_value, min_user_signal_value);
-    d_angle = angle - old_angle;
+    angle = ADCtoAngle(max_emg_sensor_value, min_emg_sensor_value);
+    angle_delta = angle - previous_angle;
 
-    if (d_angle < 0)
+    if (angle_delta < 0)
     {
       direction = -1;
     }
-    else if (d_angle >= 0)
+    else if (angle_delta >= 0)
     {
       direction = 1;
     }
 
     // Set millis to corresponding angle
-    current_millis = current_millis + direction *(angle*one_degree_millis);
-    setMillis(motor_gpio_pin, current_millis);
-    old_angle = angle;
+    current_millis = current_millis + direction *(angle*MILLIS_PER_DEGREE);
+    setMillis(MOTOR_GPIO_PIN, current_millis);
+    previous_angle = angle;
 
     return 1;
 }
 
 // FUNCTIONS //
 // Convert user input to an angle
-float ADCtoAngle(float max_user_signal_value, float min_user_signal_value)
+float ADCtoAngle(float max_emg_sensor_value, float min_emg_sensor_value)
 {
     // Initialise variables
     float adc_input;
     float angle;
-    float max = max_user_signal_value;
-    float min = min_user_signal_value;
+    float max = max_emg_sensor_value;
+    float min = min_emg_sensor_value;
 
     // Take ADC input from myoelectric pin and calculate angle
     adc_init();
-    adc_select_input(myoelectric_sensor_ADC_GPIO_pin - 26); // Select an ADC input. 0...3 are GPIOs 26...29 respectively
+    adc_select_input(ADC_PIN_FOR_EMG - 26); // Select an ADC input. 0...3 are GPIOs 26...29 respectively
     adc_input = adc_read();
-    angle = min_servo_angle_degrees + ((adc_input - min)/(max - min)) * (max_servo_angle_degrees - min_servo_angle_degrees);
+    angle = MIN_SERVO_ANGLE_DEGREES + ((adc_input - min)/(max - min)) * (MAX_SERVO_ANGLE_DEGREES - MIN_SERVO_ANGLE_DEGREES);
     
     // Clip/lift angle if not within range
-    if (angle > max_servo_angle_degrees)
+    if (angle > MAX_SERVO_ANGLE_DEGREES)
     {
-        angle = max_servo_angle_degrees;
+        angle = MAX_SERVO_ANGLE_DEGREES;
     }
-    else if (angle < min_servo_angle_degrees)
+    else if (angle < MIN_SERVO_ANGLE_DEGREES)
     {
-        angle = min_servo_angle_degrees;
+        angle = MIN_SERVO_ANGLE_DEGREES;
     }
     else{}
 
@@ -92,29 +99,29 @@ float ADCtoAngle(float max_user_signal_value, float min_user_signal_value)
 }
 
 // Function turns LED on, waits for a few seconds for low inputs, averages them, then turns LED off and waits so the user can tense, and then repeats for high inputs
-int CalibrateUserValues(float *min_user_signal_value, float *max_user_signal_value)
+int CalibrateUserValues(float *min_emg_sensor_value, float *max_emg_sensor_value)
 {
   // https://www.raspberrypi.com/documentation//pico-sdk/hardware.html#ga5d3b8875947df2f4ba022cb6aa40594b
 
   // Initialize ADC
   adc_init();
-  adc_select_input(myoelectric_sensor_ADC_GPIO_pin - 26); // Select an ADC input. 0...3 are GPIOs 26...29 respectively. Input 4 is the onboard temperature sensor.
+  adc_select_input(ADC_PIN_FOR_EMG - 26); // Select an ADC input. 0...3 are GPIOs 26...29 respectively. Input 4 is the onboard temperature sensor.
 
   // Initialize LED
-  gpio_init(LED_gpio_pin);
-  gpio_set_dir(LED_gpio_pin, GPIO_OUT);
+  gpio_init(LED_GPIO_PIN);
+  gpio_set_dir(LED_GPIO_PIN, GPIO_OUT);
 
   // Wait so user can relax muscle
   sleep_ms(1000);
 
   // Collect low signal samples for calibration
-  *min_user_signal_value = collect_sample_and_average();
+  *min_emg_sensor_value = collect_sample_and_average();
 
   // Wait so user can tense
   sleep_ms(1000);
 
   // Collect high signal samples for calibration
-  *max_user_signal_value = collect_sample_and_average();
+  *max_emg_sensor_value = collect_sample_and_average();
 
   return (0);
 }
@@ -122,13 +129,13 @@ int CalibrateUserValues(float *min_user_signal_value, float *max_user_signal_val
 float collect_sample_and_average()
 {
   float adc_total = 0;
-  gpio_put(LED_gpio_pin, 1); // turn on LED
+  gpio_put(LED_GPIO_PIN, 1); // turn on LED
   for (int i = 0; i < number_samples; i++)
   {
     adc_total = adc_total + (float)adc_read();
     sleep_ms(50);
   }
-  gpio_put(LED_gpio_pin, 0); // turn off LED
+  gpio_put(LED_GPIO_PIN, 0); // turn off LED
 
   // Calculate average ADC value for signal
   float value = adc_total / number_samples;

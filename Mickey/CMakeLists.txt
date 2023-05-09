@@ -6,7 +6,7 @@ pico_sdk_init()
 project(mickey)
 
 set(CMAKE_C_STANDARD 11)
-# set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/CalibrationAndActuation.c)
 
@@ -22,4 +22,4 @@ hardware_pwm pico_stdlib hardware_adc
 
 # Enabled usb output, disable uart output 
 pico_enable_stdio_usb(${PROJECT_NAME} 0)
-pico_enable_stdio_uart(${PROJECT_NAME} 1) #pi
+pico_enable_stdio_uart(${PROJECT_NAME} 1) #picoprobe is connected to target UART pins and we are USB'd to the probe

@@ -844,7 +844,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g -std=gnu++17"
 				},
 				{
 					"backtrace" : 2,
@@ -1190,6 +1190,14 @@
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
 			"sourceIndexes" : 
 			[
 				42

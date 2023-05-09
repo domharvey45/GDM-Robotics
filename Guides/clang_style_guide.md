@@ -39,9 +39,9 @@ Functions should be named using PascalCase.
 
 ### 1.1.3. Variables
 
-Variable names should be written in camelCase.
+Variable names should be written in snake_case.
 
-`int time_to_launch` -> Bad
+`int time_to_launch` -> Good
 
 `int time-to-launch` -> Bad
 
@@ -51,11 +51,7 @@ Variable names should be written in camelCase.
 
 `int Timetolaunch` -> Bad
 
-`int timeToLaunch` -> Good
-
-Where capitalisation cannot be used to delimit a word, underscores may be used:
-
-`string pathForVersion2_0_0 = "...";`
+`int timeToLaunch` -> Bad
 
 ### 1.1.4. Constants
 
