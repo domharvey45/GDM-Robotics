@@ -39,33 +39,37 @@ int main()
     float min_emg_sensor_value;
     float current_millis = INITIAL_MILLIS;
     int direction = 1;
+    bool calibrate_request = true;
     setMotor(MOTOR_GPIO_PIN, current_millis);
 
-    // Calibrate if button is pressed - CHANGE IF STATEMENT PARAMETER FROM PREPROCESSOR DEFINE TO HIGH ON CALIBRATE BUTTON PIN VALUE AND MOVE TO WHILE LOOP
-    if (INITIATE_CALIBRATION == 1)
+    while (1)
     {
-      CalibrateUserValues(&min_emg_sensor_value, &max_emg_sensor_value);
+    if (calibrate_request(true)) // Calibrate if button is pressed
+      {
+        CalibrateUserValues(&min_emg_sensor_value, &max_emg_sensor_value);
+      }
+
+      // Calculate Angle and direction
+      angle = ADCtoAngle(max_emg_sensor_value, min_emg_sensor_value);
+      angle_delta = angle - previous_angle;
+
+      if (angle_delta < 0)
+      {
+        direction = -1;
+      }
+      else if (angle_delta >= 0)
+      {
+        direction = 1;
+      }
+
+      // Set millis to corresponding angle
+      current_millis = current_millis + direction *(angle*MILLIS_PER_DEGREE);
+      setMillis(MOTOR_GPIO_PIN, current_millis);
+      previous_angle = angle;
+      
+      sleep_ms(10);
     }
-
-    // Calculate Angle and direction
-    angle = ADCtoAngle(max_emg_sensor_value, min_emg_sensor_value);
-    angle_delta = angle - previous_angle;
-
-    if (angle_delta < 0)
-    {
-      direction = -1;
-    }
-    else if (angle_delta >= 0)
-    {
-      direction = 1;
-    }
-
-    // Set millis to corresponding angle
-    current_millis = current_millis + direction *(angle*MILLIS_PER_DEGREE);
-    setMillis(MOTOR_GPIO_PIN, current_millis);
-    previous_angle = angle;
-
-    return 1;
+    return (1);
 }
 
 // FUNCTIONS //
